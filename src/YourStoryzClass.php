@@ -2,6 +2,4 @@
 
 namespace YourStoryz\PhpSdk;
 
-class YourStoryz
-{
-}
+class YourStoryz {}
