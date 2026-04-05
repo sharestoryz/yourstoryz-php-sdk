@@ -2,6 +2,13 @@
 
 All notable changes to `yourstoryz-php-sdk` will be documented in this file.
 
+## Release 0.0.4 - 2026-04-05
+
+### What's Changed
+
+- Lower minimum PHP version to 8.3
+- Add PHP 8.3 to CI test matrix
+
 ## Release 0.0.3 - 2026-04-05
 
 ### What's Changed
