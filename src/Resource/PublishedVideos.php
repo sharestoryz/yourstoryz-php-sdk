@@ -2,11 +2,11 @@
 
 namespace YourStoryz\PhpSdk\Resource;
 
+use Saloon\Http\BaseResource;
 use Saloon\Http\Response;
 use YourStoryz\PhpSdk\Requests\PublishedVideos\GetPublishedVideo;
-use YourStoryz\PhpSdk\Resource;
 
-class PublishedVideos extends Resource
+class PublishedVideos extends BaseResource
 {
     /**
      * @param  int  $id  The ID of the published video.

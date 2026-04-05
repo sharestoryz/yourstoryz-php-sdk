@@ -1,6 +1,6 @@
 {
     "name": "sharestoryz/yourstoryz-php-sdk",
-    "description": "This is my package yourstoryz-php-sdk",
+    "description": "An SDK to easily work with the YourStoryz API",
     "keywords": [
         "sharestoryz",
         "yourstoryz-php-sdk"

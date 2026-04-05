@@ -2,6 +2,7 @@
 
 namespace YourStoryz\PhpSdk\Resource;
 
+use Saloon\Http\BaseResource;
 use Saloon\Http\Response;
 use YourStoryz\PhpSdk\Requests\Companies\GetCompanies;
 use YourStoryz\PhpSdk\Requests\Companies\GetCompany;
@@ -9,9 +10,8 @@ use YourStoryz\PhpSdk\Requests\Companies\GetDepartments;
 use YourStoryz\PhpSdk\Requests\Companies\GetPublishedVideos;
 use YourStoryz\PhpSdk\Requests\Companies\GetSettings;
 use YourStoryz\PhpSdk\Requests\Companies\GetStories;
-use YourStoryz\PhpSdk\Resource;
 
-class Companies extends Resource
+class Companies extends BaseResource
 {
     public function all(): Response
     {
