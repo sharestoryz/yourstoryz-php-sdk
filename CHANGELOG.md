@@ -2,6 +2,15 @@
 
 All notable changes to `yourstoryz-php-sdk` will be documented in this file.
 
+## Release 0.0.3 - 2026-04-05
+
+### What's Changed
+
+* Update README with SDK description and usage docs by @jhhazelaar in https://github.com/sharestoryz/yourstoryz-php-sdk/pull/5
+* Remove support section from README by @jhhazelaar in https://github.com/sharestoryz/yourstoryz-php-sdk/pull/6
+
+**Full Changelog**: https://github.com/sharestoryz/yourstoryz-php-sdk/compare/0.0.2...0.0.3
+
 ## Release 0.0.2 - 2026-04-05
 
 ### What's Changed
