@@ -12,7 +12,7 @@ class Users extends Resource
 {
     public function me(): Response
     {
-        return $this->connector->send(new Me());
+        return $this->connector->send(new Me);
     }
 
     /**

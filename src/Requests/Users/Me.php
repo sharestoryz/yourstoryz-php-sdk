@@ -11,6 +11,6 @@ class Me extends Request
 
     public function resolveEndpoint(): string
     {
-        return "/api/v1/users/me";
+        return '/api/v1/users/me';
     }
 }
