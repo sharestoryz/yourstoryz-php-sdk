@@ -2,9 +2,9 @@
 
 namespace YourStoryz\PhpSdk\Resource;
 
+use Saloon\Http\BaseResource;
 use Saloon\Http\Response;
 use YourStoryz\PhpSdk\Requests\PublishedVideos\GetPublishedVideo;
-use Saloon\Http\BaseResource;
 
 class PublishedVideos extends BaseResource
 {

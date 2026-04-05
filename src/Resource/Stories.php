@@ -2,13 +2,13 @@
 
 namespace YourStoryz\PhpSdk\Resource;
 
+use Saloon\Http\BaseResource;
 use Saloon\Http\Response;
 use YourStoryz\PhpSdk\Requests\Stories\CreateStory;
 use YourStoryz\PhpSdk\Requests\Stories\DeleteStory;
 use YourStoryz\PhpSdk\Requests\Stories\GetStories;
 use YourStoryz\PhpSdk\Requests\Stories\GetStory;
 use YourStoryz\PhpSdk\Requests\Stories\UpdateStory;
-use Saloon\Http\BaseResource;
 
 class Stories extends BaseResource
 {

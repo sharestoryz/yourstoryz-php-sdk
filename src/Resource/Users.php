@@ -2,11 +2,11 @@
 
 namespace YourStoryz\PhpSdk\Resource;
 
+use Saloon\Http\BaseResource;
 use Saloon\Http\Response;
 use YourStoryz\PhpSdk\Requests\Users\GetPublishedVideos;
 use YourStoryz\PhpSdk\Requests\Users\GetStories;
 use YourStoryz\PhpSdk\Requests\Users\Me;
-use Saloon\Http\BaseResource;
 
 class Users extends BaseResource
 {

@@ -2,13 +2,13 @@
 
 namespace YourStoryz\PhpSdk\Resource;
 
+use Saloon\Http\BaseResource;
 use Saloon\Http\Response;
 use YourStoryz\PhpSdk\Requests\Departments\GetDepartment;
 use YourStoryz\PhpSdk\Requests\Departments\GetDepartments;
 use YourStoryz\PhpSdk\Requests\Departments\GetPublishedVideos;
 use YourStoryz\PhpSdk\Requests\Departments\GetSettings;
 use YourStoryz\PhpSdk\Requests\Departments\GetStories;
-use Saloon\Http\BaseResource;
 
 class Departments extends BaseResource
 {
