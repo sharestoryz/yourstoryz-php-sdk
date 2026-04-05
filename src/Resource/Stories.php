@@ -8,9 +8,9 @@ use YourStoryz\PhpSdk\Requests\Stories\DeleteStory;
 use YourStoryz\PhpSdk\Requests\Stories\GetStories;
 use YourStoryz\PhpSdk\Requests\Stories\GetStory;
 use YourStoryz\PhpSdk\Requests\Stories\UpdateStory;
-use YourStoryz\PhpSdk\Resource;
+use Saloon\Http\BaseResource;
 
-class Stories extends Resource
+class Stories extends BaseResource
 {
     public function all(): Response
     {

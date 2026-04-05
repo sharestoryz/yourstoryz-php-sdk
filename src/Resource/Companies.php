@@ -9,9 +9,9 @@ use YourStoryz\PhpSdk\Requests\Companies\GetDepartments;
 use YourStoryz\PhpSdk\Requests\Companies\GetPublishedVideos;
 use YourStoryz\PhpSdk\Requests\Companies\GetSettings;
 use YourStoryz\PhpSdk\Requests\Companies\GetStories;
-use YourStoryz\PhpSdk\Resource;
+use Saloon\Http\BaseResource;
 
-class Companies extends Resource
+class Companies extends BaseResource
 {
     public function all(): Response
     {

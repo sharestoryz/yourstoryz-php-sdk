@@ -6,9 +6,9 @@ use Saloon\Http\Response;
 use YourStoryz\PhpSdk\Requests\Users\GetPublishedVideos;
 use YourStoryz\PhpSdk\Requests\Users\GetStories;
 use YourStoryz\PhpSdk\Requests\Users\Me;
-use YourStoryz\PhpSdk\Resource;
+use Saloon\Http\BaseResource;
 
-class Users extends Resource
+class Users extends BaseResource
 {
     public function me(): Response
     {
