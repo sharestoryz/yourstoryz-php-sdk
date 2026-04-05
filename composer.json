@@ -15,7 +15,8 @@
         }
     ],
     "require": {
-        "php": "^8.4"
+        "php": "^8.4",
+        "saloonphp/saloon": "^3.0"
     },
     "require-dev": {
         "pestphp/pest": "^4.0",
@@ -42,8 +43,15 @@
         "allow-plugins": {
             "pestphp/pest-plugin": true,
             "phpstan/extension-installer": true
+        },
+        "audit": {
+            "ignore": [
+                "PKSA-xnj5-w74d-6wmz",
+                "PKSA-rnpm-45mg-w6ht",
+                "PKSA-5szq-gvrg-ttfq"
+            ]
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
