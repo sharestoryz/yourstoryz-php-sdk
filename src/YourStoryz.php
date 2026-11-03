@@ -22,7 +22,7 @@ class YourStoryz extends Connector
 
     public function __construct(
         protected string $token,
-        protected string $baseUrl = 'https://dashbaord.yourstoryz.com',
+        protected string $baseUrl = 'https://dashboard.yourstoryz.com',
     ) {}
 
     public function resolveBaseUrl(): string
