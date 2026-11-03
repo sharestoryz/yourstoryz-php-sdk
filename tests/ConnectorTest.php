@@ -11,7 +11,7 @@ use YourStoryz\PhpSdk\YourStoryz;
 it('resolves the base url', function () {
     $connector = new YourStoryz('test-token');
 
-    expect($connector->resolveBaseUrl())->toBe('https://dashbaord.yourstoryz.com');
+    expect($connector->resolveBaseUrl())->toBe('https://dashboard.yourstoryz.com');
 });
 
 it('accepts a custom base url', function () {
